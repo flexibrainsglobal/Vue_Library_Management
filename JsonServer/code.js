@@ -9,6 +9,7 @@ function generateData(){
        
        
         students.push({
+            "id":id,
             "roll_no":faker.datatype.number(),
             "first_name":faker.name.firstName(),
             "last_name":faker.name.lastName(),
@@ -25,6 +26,7 @@ function generateData(){
         let availble_copies = faker.datatype.number()
 
         books.push({
+            "id":id,
             "book_id":faker.datatype.number(),
             "book_name":faker.system.fileName(),
             "book_edition":faker.date.past(),

@@ -6,7 +6,7 @@
 </template>
 <script>
 import Home from "./views/Home.vue"
-import "admin-lte"
+
 export default {
   components:{
     Home
